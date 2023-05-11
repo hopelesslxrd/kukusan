@@ -1,0 +1,45 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0e0e0e;
+    font-family: 'Montserrat', sans-serif;
+    color: #ebede9;
+}
+
+.container{
+top: 550px;
+right: 0;
+left: 0;
+align-items: center;
+text-align: center;
+justify-content: center;
+opacity: 0;
+animation: ani 3.5s forwards;
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+header{
+    display: block;
+    background: #171717;
+    padding: 1em;
+    top: 50%;
+}
+
+.bor-bottom {
+    border-bottom: 2px solid #333;
+  }
+
+.h22{
+    text-decoration: underline;
+}
+.h11{
+    text-decoration: underline;
+}
